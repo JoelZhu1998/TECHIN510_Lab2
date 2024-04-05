@@ -3,7 +3,6 @@ import pandas as pd
 import altair as alt
 
 # Load the dataset
-@st.cache
 def load_data():
     url = "https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv"
     data = pd.read_csv(url)
@@ -14,7 +13,7 @@ iris_data = load_data()
 # Title and introduction
 st.title("Iris Flower Data Analysis")
 st.write("""
-This app provides an analysis of the Iris Flower Dataset. The dataset includes measurements for various attributes of three iris species: Iris setosa, Iris virginica, and Iris versicolor. Use the widgets to filter the data and explore different visualizations.
+This app provides an analysis of the Iris Flower Dataset. The dataset includes measurements for various attributes of three iris species: Iris setosa, Iris virginica, and Iris versicolor. It explores the relationship between Petal Length Range and Sepal Width Range
 """)
 
 # Filters
