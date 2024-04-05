@@ -1,5 +1,7 @@
 # TECHIN510_Lab2
 
+This app provides an analysis of the Iris Flower Dataset. The dataset includes measurements for various attributes of three iris species: Iris setosa, Iris virginica, and Iris versicolor. It explores the relationship between Petal Length Range and Sepal Width Range
+
 ## Lessons Learned
 
 - How to use text content widgets to write a title and introduction to your data analysis.
@@ -8,4 +10,4 @@
 
 ## Questions / Uncertainties
 
-- How to change the style of charts and maps?
+- How to change the style of charts and maps in streamlit?
